@@ -1,0 +1,2186 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "item/broken_elytra"
+    },
+    {
+      "model": "wingplates:item/elytra_diamond",
+      "predicate": {
+        "wingplates": 0.5
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_amethyst",
+      "predicate": {
+        "wingplates": 0.50101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_copper",
+      "predicate": {
+        "wingplates": 0.50102
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50103
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_emerald",
+      "predicate": {
+        "wingplates": 0.50104
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_gold",
+      "predicate": {
+        "wingplates": 0.50105
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_iron",
+      "predicate": {
+        "wingplates": 0.50106
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_lapis",
+      "predicate": {
+        "wingplates": 0.50107
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_netherite",
+      "predicate": {
+        "wingplates": 0.50108
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_quartz",
+      "predicate": {
+        "wingplates": 0.50109
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_bolt_redstone",
+      "predicate": {
+        "wingplates": 0.5011
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_amethyst",
+      "predicate": {
+        "wingplates": 0.50201
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_copper",
+      "predicate": {
+        "wingplates": 0.50202
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50203
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_emerald",
+      "predicate": {
+        "wingplates": 0.50204
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_gold",
+      "predicate": {
+        "wingplates": 0.50205
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_iron",
+      "predicate": {
+        "wingplates": 0.50206
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_lapis",
+      "predicate": {
+        "wingplates": 0.50207
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_netherite",
+      "predicate": {
+        "wingplates": 0.50208
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_quartz",
+      "predicate": {
+        "wingplates": 0.50209
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_coast_redstone",
+      "predicate": {
+        "wingplates": 0.5021
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_amethyst",
+      "predicate": {
+        "wingplates": 0.50301
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_copper",
+      "predicate": {
+        "wingplates": 0.50302
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50303
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_emerald",
+      "predicate": {
+        "wingplates": 0.50304
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_gold",
+      "predicate": {
+        "wingplates": 0.50305
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_iron",
+      "predicate": {
+        "wingplates": 0.50306
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_lapis",
+      "predicate": {
+        "wingplates": 0.50307
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_netherite",
+      "predicate": {
+        "wingplates": 0.50308
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_quartz",
+      "predicate": {
+        "wingplates": 0.50309
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_dune_redstone",
+      "predicate": {
+        "wingplates": 0.5031
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_amethyst",
+      "predicate": {
+        "wingplates": 0.50401
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_copper",
+      "predicate": {
+        "wingplates": 0.50402
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50403
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_emerald",
+      "predicate": {
+        "wingplates": 0.50404
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_gold",
+      "predicate": {
+        "wingplates": 0.50405
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_iron",
+      "predicate": {
+        "wingplates": 0.50406
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_lapis",
+      "predicate": {
+        "wingplates": 0.50407
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_netherite",
+      "predicate": {
+        "wingplates": 0.50408
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_quartz",
+      "predicate": {
+        "wingplates": 0.50409
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_eye_redstone",
+      "predicate": {
+        "wingplates": 0.5041
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_amethyst",
+      "predicate": {
+        "wingplates": 0.50501
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_copper",
+      "predicate": {
+        "wingplates": 0.50502
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50503
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_emerald",
+      "predicate": {
+        "wingplates": 0.50504
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_gold",
+      "predicate": {
+        "wingplates": 0.50505
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_iron",
+      "predicate": {
+        "wingplates": 0.50506
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_lapis",
+      "predicate": {
+        "wingplates": 0.50507
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_netherite",
+      "predicate": {
+        "wingplates": 0.50508
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_quartz",
+      "predicate": {
+        "wingplates": 0.50509
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_flow_redstone",
+      "predicate": {
+        "wingplates": 0.5051
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_amethyst",
+      "predicate": {
+        "wingplates": 0.50601
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_copper",
+      "predicate": {
+        "wingplates": 0.50602
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50603
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_emerald",
+      "predicate": {
+        "wingplates": 0.50604
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_gold",
+      "predicate": {
+        "wingplates": 0.50605
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_iron",
+      "predicate": {
+        "wingplates": 0.50606
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_lapis",
+      "predicate": {
+        "wingplates": 0.50607
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_netherite",
+      "predicate": {
+        "wingplates": 0.50608
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_quartz",
+      "predicate": {
+        "wingplates": 0.50609
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_host_redstone",
+      "predicate": {
+        "wingplates": 0.5061
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_amethyst",
+      "predicate": {
+        "wingplates": 0.50701
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_copper",
+      "predicate": {
+        "wingplates": 0.50702
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50703
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_emerald",
+      "predicate": {
+        "wingplates": 0.50704
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_gold",
+      "predicate": {
+        "wingplates": 0.50705
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_iron",
+      "predicate": {
+        "wingplates": 0.50706
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_lapis",
+      "predicate": {
+        "wingplates": 0.50707
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_netherite",
+      "predicate": {
+        "wingplates": 0.50708
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_quartz",
+      "predicate": {
+        "wingplates": 0.50709
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_raiser_redstone",
+      "predicate": {
+        "wingplates": 0.5071
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_amethyst",
+      "predicate": {
+        "wingplates": 0.50801
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_copper",
+      "predicate": {
+        "wingplates": 0.50802
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50803
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_emerald",
+      "predicate": {
+        "wingplates": 0.50804
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_gold",
+      "predicate": {
+        "wingplates": 0.50805
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_iron",
+      "predicate": {
+        "wingplates": 0.50806
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_lapis",
+      "predicate": {
+        "wingplates": 0.50807
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_netherite",
+      "predicate": {
+        "wingplates": 0.50808
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_quartz",
+      "predicate": {
+        "wingplates": 0.50809
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_rib_redstone",
+      "predicate": {
+        "wingplates": 0.5081
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_amethyst",
+      "predicate": {
+        "wingplates": 0.50901
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_copper",
+      "predicate": {
+        "wingplates": 0.50902
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_diamond_darker",
+      "predicate": {
+        "wingplates": 0.50903
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_emerald",
+      "predicate": {
+        "wingplates": 0.50904
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_gold",
+      "predicate": {
+        "wingplates": 0.50905
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_iron",
+      "predicate": {
+        "wingplates": 0.50906
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_lapis",
+      "predicate": {
+        "wingplates": 0.50907
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_netherite",
+      "predicate": {
+        "wingplates": 0.50908
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_quartz",
+      "predicate": {
+        "wingplates": 0.50909
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_sentry_redstone",
+      "predicate": {
+        "wingplates": 0.5091
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_amethyst",
+      "predicate": {
+        "wingplates": 0.51001
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_copper",
+      "predicate": {
+        "wingplates": 0.51002
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51003
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_emerald",
+      "predicate": {
+        "wingplates": 0.51004
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_gold",
+      "predicate": {
+        "wingplates": 0.51005
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_iron",
+      "predicate": {
+        "wingplates": 0.51006
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_lapis",
+      "predicate": {
+        "wingplates": 0.51007
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_netherite",
+      "predicate": {
+        "wingplates": 0.51008
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_quartz",
+      "predicate": {
+        "wingplates": 0.51009
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_shaper_redstone",
+      "predicate": {
+        "wingplates": 0.5101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_amethyst",
+      "predicate": {
+        "wingplates": 0.51101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_copper",
+      "predicate": {
+        "wingplates": 0.51102
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51103
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_emerald",
+      "predicate": {
+        "wingplates": 0.51104
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_gold",
+      "predicate": {
+        "wingplates": 0.51105
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_iron",
+      "predicate": {
+        "wingplates": 0.51106
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_lapis",
+      "predicate": {
+        "wingplates": 0.51107
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_netherite",
+      "predicate": {
+        "wingplates": 0.51108
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_quartz",
+      "predicate": {
+        "wingplates": 0.51109
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_silence_redstone",
+      "predicate": {
+        "wingplates": 0.5111
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_amethyst",
+      "predicate": {
+        "wingplates": 0.51201
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_copper",
+      "predicate": {
+        "wingplates": 0.51202
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51203
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_emerald",
+      "predicate": {
+        "wingplates": 0.51204
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_gold",
+      "predicate": {
+        "wingplates": 0.51205
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_iron",
+      "predicate": {
+        "wingplates": 0.51206
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_lapis",
+      "predicate": {
+        "wingplates": 0.51207
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_netherite",
+      "predicate": {
+        "wingplates": 0.51208
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_quartz",
+      "predicate": {
+        "wingplates": 0.51209
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_snout_redstone",
+      "predicate": {
+        "wingplates": 0.5121
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_amethyst",
+      "predicate": {
+        "wingplates": 0.51301
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_copper",
+      "predicate": {
+        "wingplates": 0.51302
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51303
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_emerald",
+      "predicate": {
+        "wingplates": 0.51304
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_gold",
+      "predicate": {
+        "wingplates": 0.51305
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_iron",
+      "predicate": {
+        "wingplates": 0.51306
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_lapis",
+      "predicate": {
+        "wingplates": 0.51307
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_netherite",
+      "predicate": {
+        "wingplates": 0.51308
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_quartz",
+      "predicate": {
+        "wingplates": 0.51309
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_spire_redstone",
+      "predicate": {
+        "wingplates": 0.5131
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_amethyst",
+      "predicate": {
+        "wingplates": 0.51401
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_copper",
+      "predicate": {
+        "wingplates": 0.51402
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51403
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_emerald",
+      "predicate": {
+        "wingplates": 0.51404
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_gold",
+      "predicate": {
+        "wingplates": 0.51405
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_iron",
+      "predicate": {
+        "wingplates": 0.51406
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_lapis",
+      "predicate": {
+        "wingplates": 0.51407
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_netherite",
+      "predicate": {
+        "wingplates": 0.51408
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_quartz",
+      "predicate": {
+        "wingplates": 0.51409
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_tide_redstone",
+      "predicate": {
+        "wingplates": 0.5141
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_amethyst",
+      "predicate": {
+        "wingplates": 0.51501
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_copper",
+      "predicate": {
+        "wingplates": 0.51502
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51503
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_emerald",
+      "predicate": {
+        "wingplates": 0.51504
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_gold",
+      "predicate": {
+        "wingplates": 0.51505
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_iron",
+      "predicate": {
+        "wingplates": 0.51506
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_lapis",
+      "predicate": {
+        "wingplates": 0.51507
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_netherite",
+      "predicate": {
+        "wingplates": 0.51508
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_quartz",
+      "predicate": {
+        "wingplates": 0.51509
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_vex_redstone",
+      "predicate": {
+        "wingplates": 0.5151
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_amethyst",
+      "predicate": {
+        "wingplates": 0.51601
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_copper",
+      "predicate": {
+        "wingplates": 0.51602
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51603
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_emerald",
+      "predicate": {
+        "wingplates": 0.51604
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_gold",
+      "predicate": {
+        "wingplates": 0.51605
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_iron",
+      "predicate": {
+        "wingplates": 0.51606
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_lapis",
+      "predicate": {
+        "wingplates": 0.51607
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_netherite",
+      "predicate": {
+        "wingplates": 0.51608
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_quartz",
+      "predicate": {
+        "wingplates": 0.51609
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_ward_redstone",
+      "predicate": {
+        "wingplates": 0.5161
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_amethyst",
+      "predicate": {
+        "wingplates": 0.51701
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_copper",
+      "predicate": {
+        "wingplates": 0.51702
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51703
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_emerald",
+      "predicate": {
+        "wingplates": 0.51704
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_gold",
+      "predicate": {
+        "wingplates": 0.51705
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_iron",
+      "predicate": {
+        "wingplates": 0.51706
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_lapis",
+      "predicate": {
+        "wingplates": 0.51707
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_netherite",
+      "predicate": {
+        "wingplates": 0.51708
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_quartz",
+      "predicate": {
+        "wingplates": 0.51709
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wayfinder_redstone",
+      "predicate": {
+        "wingplates": 0.5171
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_amethyst",
+      "predicate": {
+        "wingplates": 0.51801
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_copper",
+      "predicate": {
+        "wingplates": 0.51802
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_diamond_darker",
+      "predicate": {
+        "wingplates": 0.51803
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_emerald",
+      "predicate": {
+        "wingplates": 0.51804
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_gold",
+      "predicate": {
+        "wingplates": 0.51805
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_iron",
+      "predicate": {
+        "wingplates": 0.51806
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_lapis",
+      "predicate": {
+        "wingplates": 0.51807
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_netherite",
+      "predicate": {
+        "wingplates": 0.51808
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_quartz",
+      "predicate": {
+        "wingplates": 0.51809
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_diamond_wild_redstone",
+      "predicate": {
+        "wingplates": 0.5181
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite",
+      "predicate": {
+        "wingplates": 0.6
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_amethyst",
+      "predicate": {
+        "wingplates": 0.60101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_copper",
+      "predicate": {
+        "wingplates": 0.60102
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_diamond",
+      "predicate": {
+        "wingplates": 0.60103
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_emerald",
+      "predicate": {
+        "wingplates": 0.60104
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_gold",
+      "predicate": {
+        "wingplates": 0.60105
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_iron",
+      "predicate": {
+        "wingplates": 0.60106
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_lapis",
+      "predicate": {
+        "wingplates": 0.60107
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60108
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_quartz",
+      "predicate": {
+        "wingplates": 0.60109
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_bolt_redstone",
+      "predicate": {
+        "wingplates": 0.6011
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_amethyst",
+      "predicate": {
+        "wingplates": 0.60201
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_copper",
+      "predicate": {
+        "wingplates": 0.60202
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_diamond",
+      "predicate": {
+        "wingplates": 0.60203
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_emerald",
+      "predicate": {
+        "wingplates": 0.60204
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_gold",
+      "predicate": {
+        "wingplates": 0.60205
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_iron",
+      "predicate": {
+        "wingplates": 0.60206
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_lapis",
+      "predicate": {
+        "wingplates": 0.60207
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60208
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_quartz",
+      "predicate": {
+        "wingplates": 0.60209
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_coast_redstone",
+      "predicate": {
+        "wingplates": 0.6021
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_amethyst",
+      "predicate": {
+        "wingplates": 0.60301
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_copper",
+      "predicate": {
+        "wingplates": 0.60302
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_diamond",
+      "predicate": {
+        "wingplates": 0.60303
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_emerald",
+      "predicate": {
+        "wingplates": 0.60304
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_gold",
+      "predicate": {
+        "wingplates": 0.60305
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_iron",
+      "predicate": {
+        "wingplates": 0.60306
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_lapis",
+      "predicate": {
+        "wingplates": 0.60307
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60308
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_quartz",
+      "predicate": {
+        "wingplates": 0.60309
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_dune_redstone",
+      "predicate": {
+        "wingplates": 0.6031
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_amethyst",
+      "predicate": {
+        "wingplates": 0.60401
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_copper",
+      "predicate": {
+        "wingplates": 0.60402
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_diamond",
+      "predicate": {
+        "wingplates": 0.60403
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_emerald",
+      "predicate": {
+        "wingplates": 0.60404
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_gold",
+      "predicate": {
+        "wingplates": 0.60405
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_iron",
+      "predicate": {
+        "wingplates": 0.60406
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_lapis",
+      "predicate": {
+        "wingplates": 0.60407
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60408
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_quartz",
+      "predicate": {
+        "wingplates": 0.60409
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_eye_redstone",
+      "predicate": {
+        "wingplates": 0.6041
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_amethyst",
+      "predicate": {
+        "wingplates": 0.60501
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_copper",
+      "predicate": {
+        "wingplates": 0.60502
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_diamond",
+      "predicate": {
+        "wingplates": 0.60503
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_emerald",
+      "predicate": {
+        "wingplates": 0.60504
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_gold",
+      "predicate": {
+        "wingplates": 0.60505
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_iron",
+      "predicate": {
+        "wingplates": 0.60506
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_lapis",
+      "predicate": {
+        "wingplates": 0.60507
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60508
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_quartz",
+      "predicate": {
+        "wingplates": 0.60509
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_flow_redstone",
+      "predicate": {
+        "wingplates": 0.6051
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_amethyst",
+      "predicate": {
+        "wingplates": 0.60601
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_copper",
+      "predicate": {
+        "wingplates": 0.60602
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_diamond",
+      "predicate": {
+        "wingplates": 0.60603
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_emerald",
+      "predicate": {
+        "wingplates": 0.60604
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_gold",
+      "predicate": {
+        "wingplates": 0.60605
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_iron",
+      "predicate": {
+        "wingplates": 0.60606
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_lapis",
+      "predicate": {
+        "wingplates": 0.60607
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60608
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_quartz",
+      "predicate": {
+        "wingplates": 0.60609
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_host_redstone",
+      "predicate": {
+        "wingplates": 0.6061
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_amethyst",
+      "predicate": {
+        "wingplates": 0.60701
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_copper",
+      "predicate": {
+        "wingplates": 0.60702
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_diamond",
+      "predicate": {
+        "wingplates": 0.60703
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_emerald",
+      "predicate": {
+        "wingplates": 0.60704
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_gold",
+      "predicate": {
+        "wingplates": 0.60705
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_iron",
+      "predicate": {
+        "wingplates": 0.60706
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_lapis",
+      "predicate": {
+        "wingplates": 0.60707
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60708
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_quartz",
+      "predicate": {
+        "wingplates": 0.60709
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_raiser_redstone",
+      "predicate": {
+        "wingplates": 0.6071
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_amethyst",
+      "predicate": {
+        "wingplates": 0.60801
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_copper",
+      "predicate": {
+        "wingplates": 0.60802
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_diamond",
+      "predicate": {
+        "wingplates": 0.60803
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_emerald",
+      "predicate": {
+        "wingplates": 0.60804
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_gold",
+      "predicate": {
+        "wingplates": 0.60805
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_iron",
+      "predicate": {
+        "wingplates": 0.60806
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_lapis",
+      "predicate": {
+        "wingplates": 0.60807
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60808
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_quartz",
+      "predicate": {
+        "wingplates": 0.60809
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_rib_redstone",
+      "predicate": {
+        "wingplates": 0.6081
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_amethyst",
+      "predicate": {
+        "wingplates": 0.60901
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_copper",
+      "predicate": {
+        "wingplates": 0.60902
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_diamond",
+      "predicate": {
+        "wingplates": 0.60903
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_emerald",
+      "predicate": {
+        "wingplates": 0.60904
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_gold",
+      "predicate": {
+        "wingplates": 0.60905
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_iron",
+      "predicate": {
+        "wingplates": 0.60906
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_lapis",
+      "predicate": {
+        "wingplates": 0.60907
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_netherite_darker",
+      "predicate": {
+        "wingplates": 0.60908
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_quartz",
+      "predicate": {
+        "wingplates": 0.60909
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_sentry_redstone",
+      "predicate": {
+        "wingplates": 0.6091
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_amethyst",
+      "predicate": {
+        "wingplates": 0.61001
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_copper",
+      "predicate": {
+        "wingplates": 0.61002
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_diamond",
+      "predicate": {
+        "wingplates": 0.61003
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_emerald",
+      "predicate": {
+        "wingplates": 0.61004
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_gold",
+      "predicate": {
+        "wingplates": 0.61005
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_iron",
+      "predicate": {
+        "wingplates": 0.61006
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_lapis",
+      "predicate": {
+        "wingplates": 0.61007
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61008
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_quartz",
+      "predicate": {
+        "wingplates": 0.61009
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_shaper_redstone",
+      "predicate": {
+        "wingplates": 0.6101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_amethyst",
+      "predicate": {
+        "wingplates": 0.61101
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_copper",
+      "predicate": {
+        "wingplates": 0.61102
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_diamond",
+      "predicate": {
+        "wingplates": 0.61103
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_emerald",
+      "predicate": {
+        "wingplates": 0.61104
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_gold",
+      "predicate": {
+        "wingplates": 0.61105
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_iron",
+      "predicate": {
+        "wingplates": 0.61106
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_lapis",
+      "predicate": {
+        "wingplates": 0.61107
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61108
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_quartz",
+      "predicate": {
+        "wingplates": 0.61109
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_silence_redstone",
+      "predicate": {
+        "wingplates": 0.6111
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_amethyst",
+      "predicate": {
+        "wingplates": 0.61201
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_copper",
+      "predicate": {
+        "wingplates": 0.61202
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_diamond",
+      "predicate": {
+        "wingplates": 0.61203
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_emerald",
+      "predicate": {
+        "wingplates": 0.61204
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_gold",
+      "predicate": {
+        "wingplates": 0.61205
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_iron",
+      "predicate": {
+        "wingplates": 0.61206
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_lapis",
+      "predicate": {
+        "wingplates": 0.61207
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61208
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_quartz",
+      "predicate": {
+        "wingplates": 0.61209
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_snout_redstone",
+      "predicate": {
+        "wingplates": 0.6121
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_amethyst",
+      "predicate": {
+        "wingplates": 0.61301
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_copper",
+      "predicate": {
+        "wingplates": 0.61302
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_diamond",
+      "predicate": {
+        "wingplates": 0.61303
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_emerald",
+      "predicate": {
+        "wingplates": 0.61304
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_gold",
+      "predicate": {
+        "wingplates": 0.61305
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_iron",
+      "predicate": {
+        "wingplates": 0.61306
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_lapis",
+      "predicate": {
+        "wingplates": 0.61307
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61308
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_quartz",
+      "predicate": {
+        "wingplates": 0.61309
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_spire_redstone",
+      "predicate": {
+        "wingplates": 0.6131
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_amethyst",
+      "predicate": {
+        "wingplates": 0.61401
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_copper",
+      "predicate": {
+        "wingplates": 0.61402
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_diamond",
+      "predicate": {
+        "wingplates": 0.61403
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_emerald",
+      "predicate": {
+        "wingplates": 0.61404
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_gold",
+      "predicate": {
+        "wingplates": 0.61405
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_iron",
+      "predicate": {
+        "wingplates": 0.61406
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_lapis",
+      "predicate": {
+        "wingplates": 0.61407
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61408
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_quartz",
+      "predicate": {
+        "wingplates": 0.61409
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_tide_redstone",
+      "predicate": {
+        "wingplates": 0.6141
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_amethyst",
+      "predicate": {
+        "wingplates": 0.61501
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_copper",
+      "predicate": {
+        "wingplates": 0.61502
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_diamond",
+      "predicate": {
+        "wingplates": 0.61503
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_emerald",
+      "predicate": {
+        "wingplates": 0.61504
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_gold",
+      "predicate": {
+        "wingplates": 0.61505
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_iron",
+      "predicate": {
+        "wingplates": 0.61506
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_lapis",
+      "predicate": {
+        "wingplates": 0.61507
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61508
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_quartz",
+      "predicate": {
+        "wingplates": 0.61509
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_vex_redstone",
+      "predicate": {
+        "wingplates": 0.6151
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_amethyst",
+      "predicate": {
+        "wingplates": 0.61601
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_copper",
+      "predicate": {
+        "wingplates": 0.61602
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_diamond",
+      "predicate": {
+        "wingplates": 0.61603
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_emerald",
+      "predicate": {
+        "wingplates": 0.61604
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_gold",
+      "predicate": {
+        "wingplates": 0.61605
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_iron",
+      "predicate": {
+        "wingplates": 0.61606
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_lapis",
+      "predicate": {
+        "wingplates": 0.61607
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61608
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_quartz",
+      "predicate": {
+        "wingplates": 0.61609
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_ward_redstone",
+      "predicate": {
+        "wingplates": 0.6161
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_amethyst",
+      "predicate": {
+        "wingplates": 0.61701
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_copper",
+      "predicate": {
+        "wingplates": 0.61702
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_diamond",
+      "predicate": {
+        "wingplates": 0.61703
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_emerald",
+      "predicate": {
+        "wingplates": 0.61704
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_gold",
+      "predicate": {
+        "wingplates": 0.61705
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_iron",
+      "predicate": {
+        "wingplates": 0.61706
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_lapis",
+      "predicate": {
+        "wingplates": 0.61707
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61708
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_quartz",
+      "predicate": {
+        "wingplates": 0.61709
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wayfinder_redstone",
+      "predicate": {
+        "wingplates": 0.6171
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_amethyst",
+      "predicate": {
+        "wingplates": 0.61801
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_copper",
+      "predicate": {
+        "wingplates": 0.61802
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_diamond",
+      "predicate": {
+        "wingplates": 0.61803
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_emerald",
+      "predicate": {
+        "wingplates": 0.61804
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_gold",
+      "predicate": {
+        "wingplates": 0.61805
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_iron",
+      "predicate": {
+        "wingplates": 0.61806
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_lapis",
+      "predicate": {
+        "wingplates": 0.61807
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_netherite_darker",
+      "predicate": {
+        "wingplates": 0.61808
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_quartz",
+      "predicate": {
+        "wingplates": 0.61809
+      }
+    },
+    {
+      "model": "wingplates:item/elytra_netherite_wild_redstone",
+      "predicate": {
+        "wingplates": 0.6181
+      }
+    }
+  ]
+}

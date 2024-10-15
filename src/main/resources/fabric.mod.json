@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "wingplates",
+	"version": "${version}",
+	"name": "Wingplates",
+	"description": "No clue what the fuck I'm doing.",
+	"authors": [
+		"Kai"
+	],
+	"contact": {
+		"homepage": "https://github.com/OnlYKai/Wingplates/releases",
+		"issues": "https://github.com/OnlYKai/Wingplates/issues",
+		"sources": "https://github.com/OnlYKai/Wingplates"
+	},
+	"license": "MIT",
+	"icon": "assets/wingplates/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.kai.wingplates.WingplatesClient"
+		]
+	},
+	"mixins": [
+		{"config": "wingplates.mixins.json", "environment": "client"}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

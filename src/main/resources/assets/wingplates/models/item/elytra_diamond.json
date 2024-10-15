@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wingplates:item/elytra",
+    "layer1": "wingplates:item/diamond_chestplate"
+  }
+}

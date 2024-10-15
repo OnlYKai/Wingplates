@@ -1,0 +1,1088 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_boots"
+  },
+  "overrides": [
+    {
+      "model": "wingplates:item/iron_boots_bolt_amethyst",
+      "predicate": {
+        "wingplates": 0.20101
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_copper",
+      "predicate": {
+        "wingplates": 0.20102
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_diamond",
+      "predicate": {
+        "wingplates": 0.20103
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_emerald",
+      "predicate": {
+        "wingplates": 0.20104
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_gold",
+      "predicate": {
+        "wingplates": 0.20105
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_iron_darker",
+      "predicate": {
+        "wingplates": 0.20106
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_lapis",
+      "predicate": {
+        "wingplates": 0.20107
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_netherite",
+      "predicate": {
+        "wingplates": 0.20108
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_quartz",
+      "predicate": {
+        "wingplates": 0.20109
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_bolt_redstone",
+      "predicate": {
+        "wingplates": 0.2011
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_amethyst",
+      "predicate": {
+        "wingplates": 0.20201
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_copper",
+      "predicate": {
+        "wingplates": 0.20202
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_diamond",
+      "predicate": {
+        "wingplates": 0.20203
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_emerald",
+      "predicate": {
+        "wingplates": 0.20204
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_gold",
+      "predicate": {
+        "wingplates": 0.20205
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_iron_darker",
+      "predicate": {
+        "wingplates": 0.20206
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_lapis",
+      "predicate": {
+        "wingplates": 0.20207
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_netherite",
+      "predicate": {
+        "wingplates": 0.20208
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_quartz",
+      "predicate": {
+        "wingplates": 0.20209
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_coast_redstone",
+      "predicate": {
+        "wingplates": 0.2021
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_amethyst",
+      "predicate": {
+        "wingplates": 0.20301
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_copper",
+      "predicate": {
+        "wingplates": 0.20302
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_diamond",
+      "predicate": {
+        "wingplates": 0.20303
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_emerald",
+      "predicate": {
+        "wingplates": 0.20304
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_gold",
+      "predicate": {
+        "wingplates": 0.20305
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_iron_darker",
+      "predicate": {
+        "wingplates": 0.20306
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_lapis",
+      "predicate": {
+        "wingplates": 0.20307
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_netherite",
+      "predicate": {
+        "wingplates": 0.20308
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_quartz",
+      "predicate": {
+        "wingplates": 0.20309
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_dune_redstone",
+      "predicate": {
+        "wingplates": 0.2031
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_amethyst",
+      "predicate": {
+        "wingplates": 0.20401
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_copper",
+      "predicate": {
+        "wingplates": 0.20402
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_diamond",
+      "predicate": {
+        "wingplates": 0.20403
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_emerald",
+      "predicate": {
+        "wingplates": 0.20404
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_gold",
+      "predicate": {
+        "wingplates": 0.20405
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_iron_darker",
+      "predicate": {
+        "wingplates": 0.20406
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_lapis",
+      "predicate": {
+        "wingplates": 0.20407
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_netherite",
+      "predicate": {
+        "wingplates": 0.20408
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_quartz",
+      "predicate": {
+        "wingplates": 0.20409
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_eye_redstone",
+      "predicate": {
+        "wingplates": 0.2041
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_amethyst",
+      "predicate": {
+        "wingplates": 0.20501
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_copper",
+      "predicate": {
+        "wingplates": 0.20502
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_diamond",
+      "predicate": {
+        "wingplates": 0.20503
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_emerald",
+      "predicate": {
+        "wingplates": 0.20504
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_gold",
+      "predicate": {
+        "wingplates": 0.20505
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_iron_darker",
+      "predicate": {
+        "wingplates": 0.20506
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_lapis",
+      "predicate": {
+        "wingplates": 0.20507
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_netherite",
+      "predicate": {
+        "wingplates": 0.20508
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_quartz",
+      "predicate": {
+        "wingplates": 0.20509
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_flow_redstone",
+      "predicate": {
+        "wingplates": 0.2051
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_amethyst",
+      "predicate": {
+        "wingplates": 0.20601
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_copper",
+      "predicate": {
+        "wingplates": 0.20602
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_diamond",
+      "predicate": {
+        "wingplates": 0.20603
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_emerald",
+      "predicate": {
+        "wingplates": 0.20604
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_gold",
+      "predicate": {
+        "wingplates": 0.20605
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_iron_darker",
+      "predicate": {
+        "wingplates": 0.20606
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_lapis",
+      "predicate": {
+        "wingplates": 0.20607
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_netherite",
+      "predicate": {
+        "wingplates": 0.20608
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_quartz",
+      "predicate": {
+        "wingplates": 0.20609
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_host_redstone",
+      "predicate": {
+        "wingplates": 0.2061
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_amethyst",
+      "predicate": {
+        "wingplates": 0.20701
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_copper",
+      "predicate": {
+        "wingplates": 0.20702
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_diamond",
+      "predicate": {
+        "wingplates": 0.20703
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_emerald",
+      "predicate": {
+        "wingplates": 0.20704
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_gold",
+      "predicate": {
+        "wingplates": 0.20705
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_iron_darker",
+      "predicate": {
+        "wingplates": 0.20706
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_lapis",
+      "predicate": {
+        "wingplates": 0.20707
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_netherite",
+      "predicate": {
+        "wingplates": 0.20708
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_quartz",
+      "predicate": {
+        "wingplates": 0.20709
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_raiser_redstone",
+      "predicate": {
+        "wingplates": 0.2071
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_amethyst",
+      "predicate": {
+        "wingplates": 0.20801
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_copper",
+      "predicate": {
+        "wingplates": 0.20802
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_diamond",
+      "predicate": {
+        "wingplates": 0.20803
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_emerald",
+      "predicate": {
+        "wingplates": 0.20804
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_gold",
+      "predicate": {
+        "wingplates": 0.20805
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_iron_darker",
+      "predicate": {
+        "wingplates": 0.20806
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_lapis",
+      "predicate": {
+        "wingplates": 0.20807
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_netherite",
+      "predicate": {
+        "wingplates": 0.20808
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_quartz",
+      "predicate": {
+        "wingplates": 0.20809
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_rib_redstone",
+      "predicate": {
+        "wingplates": 0.2081
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_amethyst",
+      "predicate": {
+        "wingplates": 0.20901
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_copper",
+      "predicate": {
+        "wingplates": 0.20902
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_diamond",
+      "predicate": {
+        "wingplates": 0.20903
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_emerald",
+      "predicate": {
+        "wingplates": 0.20904
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_gold",
+      "predicate": {
+        "wingplates": 0.20905
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_iron_darker",
+      "predicate": {
+        "wingplates": 0.20906
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_lapis",
+      "predicate": {
+        "wingplates": 0.20907
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_netherite",
+      "predicate": {
+        "wingplates": 0.20908
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_quartz",
+      "predicate": {
+        "wingplates": 0.20909
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_sentry_redstone",
+      "predicate": {
+        "wingplates": 0.2091
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_amethyst",
+      "predicate": {
+        "wingplates": 0.21001
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_copper",
+      "predicate": {
+        "wingplates": 0.21002
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_diamond",
+      "predicate": {
+        "wingplates": 0.21003
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_emerald",
+      "predicate": {
+        "wingplates": 0.21004
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_gold",
+      "predicate": {
+        "wingplates": 0.21005
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_iron_darker",
+      "predicate": {
+        "wingplates": 0.21006
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_lapis",
+      "predicate": {
+        "wingplates": 0.21007
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_netherite",
+      "predicate": {
+        "wingplates": 0.21008
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_quartz",
+      "predicate": {
+        "wingplates": 0.21009
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_shaper_redstone",
+      "predicate": {
+        "wingplates": 0.2101
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_amethyst",
+      "predicate": {
+        "wingplates": 0.21101
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_copper",
+      "predicate": {
+        "wingplates": 0.21102
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_diamond",
+      "predicate": {
+        "wingplates": 0.21103
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_emerald",
+      "predicate": {
+        "wingplates": 0.21104
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_gold",
+      "predicate": {
+        "wingplates": 0.21105
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_iron_darker",
+      "predicate": {
+        "wingplates": 0.21106
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_lapis",
+      "predicate": {
+        "wingplates": 0.21107
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_netherite",
+      "predicate": {
+        "wingplates": 0.21108
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_quartz",
+      "predicate": {
+        "wingplates": 0.21109
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_silence_redstone",
+      "predicate": {
+        "wingplates": 0.2111
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_amethyst",
+      "predicate": {
+        "wingplates": 0.21201
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_copper",
+      "predicate": {
+        "wingplates": 0.21202
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_diamond",
+      "predicate": {
+        "wingplates": 0.21203
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_emerald",
+      "predicate": {
+        "wingplates": 0.21204
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_gold",
+      "predicate": {
+        "wingplates": 0.21205
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_iron_darker",
+      "predicate": {
+        "wingplates": 0.21206
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_lapis",
+      "predicate": {
+        "wingplates": 0.21207
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_netherite",
+      "predicate": {
+        "wingplates": 0.21208
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_quartz",
+      "predicate": {
+        "wingplates": 0.21209
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_snout_redstone",
+      "predicate": {
+        "wingplates": 0.2121
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_amethyst",
+      "predicate": {
+        "wingplates": 0.21301
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_copper",
+      "predicate": {
+        "wingplates": 0.21302
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_diamond",
+      "predicate": {
+        "wingplates": 0.21303
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_emerald",
+      "predicate": {
+        "wingplates": 0.21304
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_gold",
+      "predicate": {
+        "wingplates": 0.21305
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_iron_darker",
+      "predicate": {
+        "wingplates": 0.21306
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_lapis",
+      "predicate": {
+        "wingplates": 0.21307
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_netherite",
+      "predicate": {
+        "wingplates": 0.21308
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_quartz",
+      "predicate": {
+        "wingplates": 0.21309
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_spire_redstone",
+      "predicate": {
+        "wingplates": 0.2131
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_amethyst",
+      "predicate": {
+        "wingplates": 0.21401
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_copper",
+      "predicate": {
+        "wingplates": 0.21402
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_diamond",
+      "predicate": {
+        "wingplates": 0.21403
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_emerald",
+      "predicate": {
+        "wingplates": 0.21404
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_gold",
+      "predicate": {
+        "wingplates": 0.21405
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_iron_darker",
+      "predicate": {
+        "wingplates": 0.21406
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_lapis",
+      "predicate": {
+        "wingplates": 0.21407
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_netherite",
+      "predicate": {
+        "wingplates": 0.21408
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_quartz",
+      "predicate": {
+        "wingplates": 0.21409
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_tide_redstone",
+      "predicate": {
+        "wingplates": 0.2141
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_amethyst",
+      "predicate": {
+        "wingplates": 0.21501
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_copper",
+      "predicate": {
+        "wingplates": 0.21502
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_diamond",
+      "predicate": {
+        "wingplates": 0.21503
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_emerald",
+      "predicate": {
+        "wingplates": 0.21504
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_gold",
+      "predicate": {
+        "wingplates": 0.21505
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_iron_darker",
+      "predicate": {
+        "wingplates": 0.21506
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_lapis",
+      "predicate": {
+        "wingplates": 0.21507
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_netherite",
+      "predicate": {
+        "wingplates": 0.21508
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_quartz",
+      "predicate": {
+        "wingplates": 0.21509
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_vex_redstone",
+      "predicate": {
+        "wingplates": 0.2151
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_amethyst",
+      "predicate": {
+        "wingplates": 0.21601
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_copper",
+      "predicate": {
+        "wingplates": 0.21602
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_diamond",
+      "predicate": {
+        "wingplates": 0.21603
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_emerald",
+      "predicate": {
+        "wingplates": 0.21604
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_gold",
+      "predicate": {
+        "wingplates": 0.21605
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_iron_darker",
+      "predicate": {
+        "wingplates": 0.21606
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_lapis",
+      "predicate": {
+        "wingplates": 0.21607
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_netherite",
+      "predicate": {
+        "wingplates": 0.21608
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_quartz",
+      "predicate": {
+        "wingplates": 0.21609
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_ward_redstone",
+      "predicate": {
+        "wingplates": 0.2161
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_amethyst",
+      "predicate": {
+        "wingplates": 0.21701
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_copper",
+      "predicate": {
+        "wingplates": 0.21702
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_diamond",
+      "predicate": {
+        "wingplates": 0.21703
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_emerald",
+      "predicate": {
+        "wingplates": 0.21704
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_gold",
+      "predicate": {
+        "wingplates": 0.21705
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_iron_darker",
+      "predicate": {
+        "wingplates": 0.21706
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_lapis",
+      "predicate": {
+        "wingplates": 0.21707
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_netherite",
+      "predicate": {
+        "wingplates": 0.21708
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_quartz",
+      "predicate": {
+        "wingplates": 0.21709
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wayfinder_redstone",
+      "predicate": {
+        "wingplates": 0.2171
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_amethyst",
+      "predicate": {
+        "wingplates": 0.21801
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_copper",
+      "predicate": {
+        "wingplates": 0.21802
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_diamond",
+      "predicate": {
+        "wingplates": 0.21803
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_emerald",
+      "predicate": {
+        "wingplates": 0.21804
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_gold",
+      "predicate": {
+        "wingplates": 0.21805
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_iron_darker",
+      "predicate": {
+        "wingplates": 0.21806
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_lapis",
+      "predicate": {
+        "wingplates": 0.21807
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_netherite",
+      "predicate": {
+        "wingplates": 0.21808
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_quartz",
+      "predicate": {
+        "wingplates": 0.21809
+      }
+    },
+    {
+      "model": "wingplates:item/iron_boots_wild_redstone",
+      "predicate": {
+        "wingplates": 0.2181
+      }
+    }
+  ]
+}
