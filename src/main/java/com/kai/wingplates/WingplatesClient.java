@@ -6,6 +6,7 @@ import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.NbtComponent;
 import net.minecraft.item.Items;
 import net.minecraft.item.trim.ArmorTrim;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.util.Identifier;
 
@@ -14,6 +15,7 @@ import java.util.Map;
 import static java.util.Map.entry;
 
 public class WingplatesClient implements ClientModInitializer {
+
 	public static final Map<String, Float> TRIM_MATERIALS = Map.of(
 			"minecraft:amethyst", 0.00001f,
 			"minecraft:copper", 0.00002f,
@@ -68,6 +70,9 @@ public class WingplatesClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		WingplatesConfig.loadConfig();
+		WingplatesConfig.configCommand();
+
 		ModelPredicateProviderRegistry.register(Items.ELYTRA, Identifier.of("wingplates"), (stack, world, ent, i) -> {
 			//System.out.println("is running elytra");
 			// Get chestplate id stored in custom_data, check if it exists, turn it into a String
@@ -94,8 +99,8 @@ public class WingplatesClient implements ClientModInitializer {
 		// Netherite chestplate with Wingplates support
 		ModelPredicateProviderRegistry.register(Items.NETHERITE_CHESTPLATE, Identifier.of("wingplates"), (stack, world, ent, i) -> {
 			// Get chestplate id stored in custom_data, check if it exists
-			NbtElement chestplateCheckData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates").get("id");
-			if (chestplateCheckData == null) {
+			NbtCompound chestplateCheckData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates");
+			if (chestplateCheckData.isEmpty()) {
 				// Get trim data, check if it exists, turn it into a String (or return custom data doesn't exist)
 				ArmorTrim trimData = stack.get(DataComponentTypes.TRIM);
 				if (trimData == null)
@@ -122,8 +127,8 @@ public class WingplatesClient implements ClientModInitializer {
 		// Diamond chestplate with Wingplates support
 		ModelPredicateProviderRegistry.register(Items.DIAMOND_CHESTPLATE, Identifier.of("wingplates"), (stack, world, ent, i) -> {
 			// Get chestplate id stored in custom_data, check if it exists
-			NbtElement chestplateCheckData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates").get("id");
-			if (chestplateCheckData == null) {
+			NbtCompound chestplateCheckData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates");
+			if (chestplateCheckData.isEmpty()) {
 				// Get trim data, check if it exists, turn it into a String (or return custom data doesn't exist)
 				ArmorTrim trimData = stack.get(DataComponentTypes.TRIM);
 				if (trimData == null)
@@ -131,6 +136,7 @@ public class WingplatesClient implements ClientModInitializer {
 				String trimPatternData = trimData.getPattern().getIdAsString();
 				String trimMaterialData = trimData.getMaterial().getIdAsString();
 
+				// return 0.2f to indicate no custom_data exists, and trim data
 				return Math.round((0.2f + getTrimPatternValue(trimPatternData) + getTrimMaterialValue(trimMaterialData)) * 100000f) / 100000f;
 			}
 

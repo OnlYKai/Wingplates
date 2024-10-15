@@ -1,5 +1,6 @@
 package com.kai.wingplates.mixin;
 
+import com.kai.wingplates.WingplatesConfig;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.entity.feature.ArmorFeatureRenderer;
@@ -27,6 +28,23 @@ public class ArmorFeatureRendererMixin {
 		// Check if item is elytra and player "exists"
 		if (!stack.isOf(Items.ELYTRA) || player == null)
 			return stack;
+
+
+
+		// Apply config
+		if (WingplatesConfig.chestplateVisibility.equals("never")) {
+			return stack;
+		}
+
+		if (WingplatesConfig.chestplateVisibility.equals("onGround"))
+			if (player.isFallFlying())
+				return stack;
+
+		if (WingplatesConfig.chestplateVisibility.equals("inFlight"))
+			if (!player.isFallFlying())
+				return stack;
+
+
 
 		// Get the saved chestplate ItemStack (id) as nbt, check if it exists
 		NbtCompound chestplateData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates");

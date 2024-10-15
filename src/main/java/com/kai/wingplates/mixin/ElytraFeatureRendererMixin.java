@@ -1,5 +1,6 @@
 package com.kai.wingplates.mixin;
 
+import com.kai.wingplates.WingplatesConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.entity.feature.ElytraFeatureRenderer;
 import net.minecraft.component.DataComponentTypes;
@@ -24,25 +25,55 @@ public class ElytraFeatureRendererMixin {
 		if (!stack.isOf(Items.ELYTRA) || player == null)
 			return stack;
 
-		// Get the saved chestplate ItemStack (id) as nbt, check if it exists
-		NbtCompound chestplateData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates");
-		if (chestplateData.isEmpty())
+		// Somehow apply config in here
+
+		if (WingplatesConfig.applyToNormalElytra == false) {
+			// Get the saved chestplate ItemStack (id) as nbt, check if it exists
+			NbtCompound chestplateData = stack.getOrDefault(DataComponentTypes.CUSTOM_DATA, NbtComponent.DEFAULT).copyNbt().getCompound("wingplates");
+			if (chestplateData.isEmpty())
+				return stack;
+		}
+
+		if (WingplatesConfig.elytraVisibility.equals("always"))
 			return stack;
 
-		// Check if player has the "FallFlying" tag
-		if (player.isFallFlying()) {
-			lastFlyingTime = System.currentTimeMillis();
+		if (WingplatesConfig.elytraVisibility.equals("inFlight")) {
+			// Check if player has the "FallFlying" tag
+			if (player.isFallFlying()) {
+				lastFlyingTime = System.currentTimeMillis();
+				return stack;
+			}
+
+			// Calculate difference between current time and lastFlyingTime in milliseconds
+			sinceLastFlight = System.currentTimeMillis() - lastFlyingTime;
+
+			// If the difference is bigger than X milliseconds STOP rendering elytra
+			if (sinceLastFlight >= 100)
+				return ItemStack.EMPTY;
+
+			// This is returned when player is not flying and difference is lower than X milliseconds
 			return stack;
 		}
 
-		// Calculate difference between current time and lastFlyingTime in milliseconds
-		sinceLastFlight = System.currentTimeMillis() - lastFlyingTime;
+		if (WingplatesConfig.elytraVisibility.equals("onGround")) {
+			// Check if player has the "FallFlying" tag
+			if (player.isFallFlying()) {
+				lastFlyingTime = System.currentTimeMillis();
+				return ItemStack.EMPTY;
+			}
 
-		// If the difference is bigger than X milliseconds stop rendering elytra
-		if (sinceLastFlight >= 100)
+			// Calculate difference between current time and lastFlyingTime in milliseconds
+			sinceLastFlight = System.currentTimeMillis() - lastFlyingTime;
+
+			// If the difference is bigger than X milliseconds DO render elytra
+			if (sinceLastFlight >= 100)
+				return stack;
+
+			// This is returned when player is not flying and difference is lower than X milliseconds
 			return ItemStack.EMPTY;
+		}
 
-		// This is returned when player is not flying and difference is lower than X milliseconds
-		return stack;
+		// Only setting left ist "never", so return empty item stack
+		return ItemStack.EMPTY;
 	}
 }
